@@ -1,0 +1,63 @@
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Button that triggers dropdown */
+  .dropdown-button {
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    background: transparent;
+  }
+  
+  /* Dropdown menu container */
+  .dropdown-menu {
+    position: absolute;
+    top: 100%; /* Align just below the button */
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    min-width: 220px;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display:  block;
+    width: 100%;
+  }
+  
+  /* Menu items styling */
+  .dropdown-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .dropdown-menu li {
+    padding: 12px 16px;
+    border-bottom: 1px solid #ddd; /* Add bottom border between items */
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f0f0f0; /* Highlight option on hover */
+  }
+  
+  /* Special styling for Sign Out button */
+  .signout {
+    background-color: #ff9800; /* Match orange color */
+    color: white;
+    text-align: center;
+    padding: 12px 16px; /* Match other items' padding */
+    border-bottom: none; /* No border at the bottom for the last item */
+  }
+  
+  .signout:hover {
+    background-color: #f57c00; /* Darker orange on hover */
+  }
+  

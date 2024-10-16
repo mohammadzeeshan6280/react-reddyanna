@@ -1,0 +1,150 @@
+
+
+aside::-webkit-scrollbar {
+  width: 7px;
+  height: 5px;
+}
+
+aside::-webkit-scrollbar-thumb {
+  background-color: #C1C1C1; 
+}
+
+
+
+.app_sidebar {
+  position: fixed;
+  top: 106px;
+  left: 0px;
+  bottom: 0;
+  width: 250px;
+  z-index: 994;
+  transition: all 0.3s;
+  padding: 0;
+  overflow-y: auto;
+  box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
+  background-color: #fff;
+  /* display: none; */
+}
+.sidebar_nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.mobile_logo {
+  max-height: 32px;
+  display: none;
+}
+
+.nav_item {
+  border-bottom: 1px solid var(--border-color);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav_item .nav_link {
+  color: var(--secondary-color);
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+  transition: 0.3s;
+  padding: 5px 15px 5px 10px;
+  text-transform: capitalize;
+}
+
+.nav_item .nav_link::before {
+  content: "";
+  background: var(--border-color);
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: 13.3%;
+}
+
+.nav_item .nav_link img {
+  width: 18px;
+  object-fit: contain;
+  margin-right: 5px;
+}
+
+.sidebar_nav .nav_link span {
+  padding-left: 10px !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.sidebar_nav .nav_link .angle_down {
+  margin-right: 0;
+  transition: transform 0.2s ease-in-out;
+  color: var(--secondary-color);
+  font-size: 11px;
+}
+
+.sidebar_nav .nav_link:hover {
+  color: var(--primary-color);
+  background: #fff6ee;
+  cursor: pointer;
+}
+.sidebar_nav .nav_link:hover .nav_icon {
+  filter: grayscale(1);
+}
+@media (max-width: 1199px) {
+  .app_sidebar {
+    top: 0;
+    left: -250px;
+  }
+}
+
+@media (max-width: 991px) {
+  .mobile_logo {
+    margin: 5px auto;
+    display: block;
+    width: 70px;
+  }
+}
+/* Cricket Dropdown Navigation */
+.cricket_navigation {
+  list-style: none;
+  padding-left: 20px;
+  display: none;
+}
+
+.cricket_navigation a {
+  display: block;
+  padding: 8px 0;
+  color: #6c757d;
+  font-size: 12px;
+  text-transform: capitalize;
+  transition: color 0.3s;
+}
+
+.cricket_navigation a:hover {
+  color: #007bff;
+}
+
+/* If open, display the dropdown */
+.open + .cricket_navigation {
+  display: block;
+}
+
+/* Rotate caret down icon when open */
+.nav_link .bi-caret-down {
+  transition: transform 0.3s;
+}
+
+.nav_link .open {
+  transform: rotate(180deg);
+}
+.cricket-nav-content {
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.cricket-nav-content.open {
+  display: block;
+  max-height: 500px; /* Adjust height as needed */
+}

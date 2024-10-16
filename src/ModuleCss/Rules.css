@@ -1,0 +1,139 @@
+/* .fancy-section {
+    background-color: #b30000;
+    padding: 20px;
+  }
+  
+  .fancy-header {
+    background-color: #8b0000; 
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+  }
+  
+  .fancy-content {
+    background-color: white; 
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .fancy-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: black;
+  }
+  
+  .fancy-content p strong {
+    font-weight: bold;
+  }
+  
+  .fancy-header:last-of-type {
+    margin-top: 10px;
+  }
+   */
+
+   .rules-container {
+    width: 60%;
+    margin: auto;
+    background-color: #2e2e2e;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .close-btn {
+    background-color: #2E2E2E;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .section-box{
+    background: #fff;
+    padding: 5px;
+  }
+  
+  .section {
+    margin-bottom: 10px;
+  }
+  
+  .section-header {
+    background-color: #a20b0b;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #8d0606;
+  }
+  
+  .section-content {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+  }
+/* 
+  .section-content::after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 9px;
+    width: 1px;
+    height: 37.5vh;
+    background: red;
+  }
+  .section-content::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 9px;
+    width: 1px;
+    height: 37.5vh;
+    background: red;
+  } */
+
+  .section-content p {
+    padding: .5rem .5rem;
+    font-size: 12px;
+    color:rgb(220, 53, 69);
+  }
+  .section-content span {
+    padding: .5rem .5rem;
+    font-size: 12px;
+
+  }
+
+  td{
+    border: 1px solid #dee2e6;
+  }
+
+  @media screen and (max-width :  991px){
+    .rules-container{
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width :  768px){
+    .rules-container{
+        width: 100%;
+    }
+  }
+  
+  @media screen and (max-width :  576px){
+    .rules-container{
+        width: 100%;
+    }
+  }

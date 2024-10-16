@@ -1,0 +1,480 @@
+@media (max-width: 1199px) {
+  main {
+    padding: 20px;
+  }
+}
+@media (max-width: 991px) {
+  main {
+    padding: 1px;
+  }
+}
+.container-main {
+  padding: 0;
+  background: linear-gradient(0deg, rgb(0 0 0 / 39%), rgb(0 0 0 / 30%)),
+    url(https://www.stageandscreen.travel/sites/default/files/styles/large/public/LP%20-%20Cricket%20Australia.jpg?itok=dStxvjPW);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  height: 80px;
+  align-items: center;
+  display: grid;
+  background-position: bottom;
+  position: relative;
+}
+
+@media only screen and (max-width: 767px) {
+  .container-main {
+    height: 105px !important;
+  }
+}
+
+.row-ctm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px 0;
+}
+
+.team {
+  flex: 0 0 25%;
+  max-width: 25%;
+  text-align: center;
+}
+
+.match_status {
+  flex: 0 0 50%;
+  max-width: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0px;
+  padding: 4px 0;
+}
+
+.inn1 {
+  font-size: 10px;
+  font-weight: 600;
+  font-style: italic;
+  color: #fff;
+  width: max-content;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.curr_inn {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.team_name {
+  text-transform: capitalize;
+  font-size: 14px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.day {
+  width: 100%;
+  display: block;
+  text-transform: capitalize;
+  font-size: 10px;
+}
+
+.status {
+  width: 100%;
+}
+
+.day:before {
+  color: #fff;
+  margin: 0 5px;
+}
+
+.day:after {
+  color: #fff;
+  margin: 0 5px;
+}
+
+.team_name img {
+  padding-left: 5px;
+  vertical-align: middle;
+}
+
+.score-over ul {
+  padding: 0;
+  margin: 0;
+}
+
+.score-over ul li {
+  display: inline-block;
+  color: #fff;
+}
+
+.score-over ul li p {
+  margin: 0;
+}
+
+.six-balls {
+  padding: 2px;
+  font-size: 17px;
+}
+
+.target {
+  font-size: 9px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.commantry {
+  -webkit-animation: txt 3s ease-out infinite;
+  animation: txt 3s ease-out infinite;
+  font-family: tahomabd;
+  font-size: 12px;
+  width: 50%;
+  display: block;
+  position: absolute;
+  top: 5%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@-webkit-keyframes txt {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes txt {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.sr-widget-1 {
+  margin-bottom: 2px;
+  box-shadow: 0 1px 2px 0 #3c40434d, 0 2px 6px 2px #3c404326;
+}
+.details-page .game-heading {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.game-heading .card-header-title {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.game-heading .card-header-title {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.game-heading span {
+  font-size: 12px;
+}
+.place-bet {
+  position: relative;
+  overflow: hidden;
+}
+.card {
+  border: none !important;
+  border-radius: 5px !important;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1) !important;
+}
+.card-header {
+  border-color: var(--dark-color) !important;
+  background-color: var(--dark-color) !important;
+}
+.card-header {
+  color: #fff !important;
+  padding: 4px 8px !important;
+  font-size: 17px;
+}
+/* .card-header:first-child {
+  border-radius: calc(0.375rem - 1px) calc(0.375rem - 1px) 0 0 !important;
+} */
+.place-bet h6 {
+  text-transform: uppercase;
+  font-size: 14px !important;
+  padding: 0 !important;
+}
+.game-heading {
+  position: relative;
+}
+
+/* MARKET SECTION */
+
+.market_section {
+  background: #fff;
+  margin-top: 1px;
+  box-shadow: 0 1px 6px #00000017;
+  -webkit-box-shadow: 0 1px 6px #00000017;
+}
+.market_section p {
+  line-height: normal;
+  align-items: center;
+  background: #e9eff8;
+  width: 100%;
+  color: #fff;
+  text-transform: capitalize;
+  display: inline-block;
+  margin-bottom: 0;
+}
+.market_section span.mrkname::before {
+  background: linear-gradient(
+    180deg,
+    var(--primary-color) 0,
+    var(--primary-color)
+  );
+}
+.market_section span.mrkname::before {
+  content: "";
+  clip-path: polygon(0 -1px, 100% -1px, 1px 100%, 0 100%);
+  width: 18px;
+  height: calc(100% + 0px);
+  position: absolute;
+  right: -17px;
+  top: 0;
+}
+.market_section span.mrkname {
+  background: var(--primary-color);
+}
+.market_section span.mrkname {
+  height: 40px;
+  line-height: normal;
+  display: inline-flex;
+  padding: 5px 10px;
+  align-items: center;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 13px;
+  position: relative;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  /* width: 130px; */
+}
+.market_section .add-pin {
+  vertical-align: middle;
+  width: auto;
+  display: inline-block;
+}
+.market_section .add-pin i {
+  color: var(--primary-color);
+}
+.market_section .add-pin i {
+  line-height: 22px;
+  width: 22px;
+  height: 22px;
+  font-size: 13px;
+  display: inline-block;
+  align-items: center;
+  background-color: transparent;
+  border: 0px solid #beabc2;
+  border-radius: 0;
+  text-align: center;
+}
+.market_section .min-max {
+  align-items: center;
+  height: 40px;
+  display: flex;
+  color: #000;
+  float: right;
+  font-size: 10px;
+  font-weight: 600;
+}
+.game-rules-icon i {
+  color: var(--secondary-color);
+}
+.market_section .min-max .an-collapse[aria-expanded="false"]::before {
+  content: "\f279";
+  font-family: bootstrap-icons !important;
+}
+.market_section .min-max .an-collapse[aria-expanded="true"]::before {
+  content: "\f27c";
+  font-family: bootstrap-icons !important;
+}
+
+.market_section .min-max .an-collapse {
+  color: var(--primary-color);
+  font-size: 17px;
+  line-height: normal;
+  vertical-align: middle;
+  display: inline-flex;
+  margin-left: 5px;
+  cursor: pointer;
+  width: 17px !important;
+  /* height: 17px; */
+  background: transparent !important;
+  border: none !important;
+}
+.market_section .row {
+  border-bottom: 1px solid #f2edf3;
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: normal;
+}
+.market_section .btn-group {
+  width: 100% !important;
+}
+#Match_Odds {
+  width: 100% !important;
+}
+#bookmaker0 {
+  width: 100% !important;
+}
+#bookmaker2 {
+  width: 100% !important;
+}
+.market_section .btn-group button {
+  font-size: 13px;
+  font-weight: 700;
+  width: 16.66666%;
+  border: none;
+  border-right-width: medium;
+  border-right-style: none;
+  border-right-color: currentcolor;
+  border-right: 1px solid #fff;
+  line-height: normal;
+  padding: 4px 0;
+  text-transform: capitalize;
+  color: #333;
+}
+@media (max-width: 991px) {
+  .market_section .btn-group button {
+    width: 100%;
+  }
+}
+.oddsHeader .ex-bl {
+  background: none;
+}
+.market_section .back {
+  background: rgb(148, 223, 255);
+}
+.market_section .back:hover {
+  background: #80c2f1;
+}
+.oddsHeader .back,
+.oddsHeader .lay,
+.oddsHeader .back:hover,
+.oddsHeader .lay:hover {
+  background: none !important;
+  font-size: 11px !important;
+  text-transform: uppercase !important;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+.oddsHeader .back,
+.oddsHeader .lay,
+.oddsHeader .back:hover,
+.oddsHeader .lay:hover {
+  background: none !important;
+  font-size: 11px !important;
+  text-transform: uppercase !important;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  appearance: button;
+  -webkit-appearance: button;
+}
+
+.market_section span.marketevent {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  text-transform: capitalize;
+  padding: 0 0 0 5px;
+  max-width: 300px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline-block;
+  vertical-align: middle;
+}
+/*  */
+
+.market_section .back-light,
+.market_section .back-light:hover {
+  background: rgb(199, 238, 255) !important;
+}
+.market_section .btn-group button small {
+  font-size: 10px;
+  color: #000;
+  display: block;
+  font-weight: 400;
+}
+
+/* LAY */
+
+.market_section .lay {
+  background: rgb(249, 200, 211);
+}
+.market_section .lay:hover {
+  background: #fbb7c6;
+}
+.market_section .lay-light,
+.market_section .lay-light:hover {
+  background: rgb(239 225 229) !important;
+}
+
+.msgs {
+  color: var(--dark-color);
+}
+.msgs {
+  padding: 0 5px;
+  font-size: 11px;
+  font-weight: 500;
+  display: block;
+  background: #f1f1f1;
+}
+
+.suspended {
+  display: flex;
+  font-weight: 700;
+  color: red;
+  font-size: 13px;
+  box-shadow: inset 0 0 0 1px #ff0000;
+  box-shadow: inset 6px 0 0px -5px #f00, inset -6px 0 0px -5px red;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  opacity: 0.9;
+}

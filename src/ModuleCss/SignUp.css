@@ -1,0 +1,262 @@
+.sign-up-page-wrap {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background: #6d081d;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signUpUi {
+  font-family: sans-serif;
+  width: 430px;
+  background: #6d081d;
+  position: absolute;
+  max-width: 430px;
+  min-height: 90%;
+  max-height: 90%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: unset !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+
+.head-title {
+  color: #e5cb63;
+  text-align: center;
+}
+
+.iti--allow-dropdown .iti_flag-container:hover .iti_selected-flag {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.iti_flag.iti_in {
+  height: 14px;
+  background-position: -2413px 0px;
+}
+
+.iti__selected-flag {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 6px 0 8px;
+}
+
+.iti_flag.iti_in {
+  height: 14px;
+  background-position: -2413px 0px;
+}
+.iti__flag {
+  height: 15px;
+  box-shadow: 0px 0px 1px 0px #888;
+  background-image: url("../../public/flags.png");
+  /* background-repeat: no-repeat; */
+  background-color: #dbdbdb;
+  background-position: 20px 0;
+  background-position: 3239px 1px;
+  z-index: 1003;
+  background-size: cover;
+}
+
+.iti__flag {
+  width: 20px;
+}
+
+.iti__country-list {
+  position: absolute;
+  z-index: 2;
+  list-style: none;
+  text-align: left;
+  padding: 10px;
+  margin: 0 0 0 -1px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border: 1px solid #ccc;
+  white-space: nowrap;
+  max-height: 200px;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.iti__country-name {
+  margin-right: 6px;
+}
+
+.iti_flag-box,
+.iticountry-name,
+.iti_dial-code {
+  vertical-align: middle;
+}
+
+.iti__flag-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.signUpUi form .form-group input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+}
+
+.signUpUi form .form-group input {
+  border: none;
+  border-radius: 25px;
+  height: 50px;
+  text-align: center;
+  font-size: 12px;
+  box-shadow: none;
+  color: #fff;
+}
+.signUpUi form .form-group {
+  margin-bottom: 20px;
+}
+
+.signUpUi form small {
+  color: #fff;
+}
+
+.signUpUi form .btn-primary {
+  width: auto !important;
+}
+.signUpUi form .btn-primary {
+  width: 20%;
+  line-height: 2;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-top: 20px !important;
+  display: block;
+  border-color: #c10930;
+  background-color: #c10930;
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  /* color: #212529; */
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.signUpUi form .form-group input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.signUpUi form .form-group label {
+  font-size: 13px;
+  margin: 0;
+  margin-left: 11px;
+  display: none;
+}
+
+.signUpNew_info {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.iti__selected-flag {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 6px 0 8px;
+}
+.iti--separate-dial-code .iti__selected-flag {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+.iti--separate-dial-code .iti__selected-dial-code {
+  color: #fff;
+}
+
+.iti--separate-dial-code .iti__selected-dial-code {
+  margin-left: 6px;
+}
+
+.signUpUi form .form-group .form-control:focus {
+  /* color: #fff; */
+  background: none;
+  /* border: none; */
+  outline: 0;
+  box-shadow: 0px 1px 0 0px #106257ab;
+}
+
+::placeholder {
+  color: #fff !important;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}

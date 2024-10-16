@@ -1,9 +1,12 @@
 import "./App.css";
+import Routes from "./Components/Routes";
 
 function App() {
   return (
     <>
-      <p className="text-dark">hello</p>
+      <Routes />
+   
+
     </>
   );
 }
